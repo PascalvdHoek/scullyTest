@@ -17,13 +17,15 @@ export class BlogComponent implements OnInit {
 
 blogid = this.route.params.pipe(pluck('slug'))
 
+   
+currentBlog =  this.scully.available$.pipe(map(a=> a.find(a=> a.route.includes('design-blog'))))
+
   ngOnInit() {
 
     console.log(this.blogid)
     console.log(this.scully.available$)
 
-    this.scully.available$.subscribe(a=> console.log(a))
-    this.scully.available$.pipe(map(a=> console.log(a)))
+    this.scully.available$.subscribe(a=> console.log(a.find(a=> a.route === '/blog/My-first-blog')))
 
 
 
