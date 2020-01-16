@@ -3,36 +3,6 @@ title: 'Introduction to design systems'
 tocTitle: 'Introduction'
 description: 'A guide to the latest production-ready tools for design systems'
 ---
-<style>
-    .aside{
-        font-size: 16px;
-        color: rgb(68, 68, 68);
-        background: rgb(248, 250, 252);
-        border-radius: 4px;
-        padding: 20px;
-    }
-
-img{
-    display: block;
-    max-width: 100%;
-    position: relative;
-    padding: 0px;
-    margin: 0px auto;
-
-}
-
-* {
-    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
-}
-p{
-    font-size: 16px;
-    color: rgb(51, 51, 51);
-    line-height: 28px;
-
-}
-  
-</style>
 
 <div class="aside">This guide is made for <b>professional developers</b> learning how to build design systems. Intermediate experience in JavaScript, Git, and continuous integration is recommended. You should also know Storybook basics, such as writing a story and editing config files (<a href="/intro-to-storybook">Intro to Storybook</a> teaches basics).
 </div>
